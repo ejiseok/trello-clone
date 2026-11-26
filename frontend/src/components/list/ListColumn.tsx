@@ -67,7 +67,7 @@ function ColumnShell({
         </Badge>
         {actions}
       </div>
-      <div className="min-h-2 flex-1 overflow-y-auto px-2">{children}</div>
+      <div className="min-h-2 flex-1 overflow-y-auto px-2 pt-2">{children}</div>
       <div className="p-2 pt-1">{footer}</div>
     </div>
   )

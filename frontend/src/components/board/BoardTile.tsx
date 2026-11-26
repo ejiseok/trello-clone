@@ -23,7 +23,7 @@ export function BoardTile({ board, onRename, onDelete }: BoardTileProps) {
   const isOwner = board.role === 'owner'
 
   return (
-    <Card className="relative h-32 justify-between transition-shadow hover:shadow-md has-[a:focus-visible]:ring-2 has-[a:focus-visible]:ring-ring">
+    <Card className="relative h-32 justify-between border-t-4 border-t-primary transition-shadow hover:shadow-md hover:ring-primary/30 has-[a:focus-visible]:ring-2 has-[a:focus-visible]:ring-ring">
       <CardHeader>
         <CardTitle className="line-clamp-2 break-all">
           {/* 카드 전체를 클릭 영역으로 */}

@@ -18,7 +18,7 @@ export function AppHeader({ children }: { children?: ReactNode }) {
   const { user, logout } = useAuth()
 
   return (
-    <header className="flex h-14 shrink-0 items-center gap-3 border-b bg-background px-4">
+    <header className="flex h-14 shrink-0 items-center gap-3 border-t-3 border-b border-t-primary bg-background px-4">
       <Link to="/boards" className="flex items-center gap-2 font-semibold">
         <KanbanSquareIcon className="size-5 text-primary" />
         <span className="hidden sm:inline">Trello Clone</span>

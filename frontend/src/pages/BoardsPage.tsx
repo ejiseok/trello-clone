@@ -38,7 +38,7 @@ export function BoardsPage() {
       <main className="mx-auto w-full max-w-6xl flex-1 p-4 sm:p-8">
         <div className="mb-6 flex items-center justify-between gap-4">
           <h1 className="flex items-center gap-2 text-xl font-semibold">
-            <LayoutGridIcon className="size-5 text-muted-foreground" />내 보드
+            <LayoutGridIcon className="size-5 text-primary" />내 보드
           </h1>
           <Button onClick={() => setCreateOpen(true)}>
             <PlusIcon />새 보드
@@ -59,7 +59,7 @@ export function BoardsPage() {
           />
         ) : boards.data.length === 0 ? (
           <div className="flex flex-col items-center gap-4 rounded-xl border border-dashed bg-background p-12 text-center">
-            <LayoutGridIcon className="size-10 text-muted-foreground" />
+            <LayoutGridIcon className="size-10 text-primary/70" />
             <div className="space-y-1">
               <p className="font-medium">아직 보드가 없습니다</p>
               <p className="text-sm text-muted-foreground">
