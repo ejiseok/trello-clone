@@ -1,0 +1,19 @@
+# 비밀 정보
+.env
+*.pem
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+
+# OS / 에디터
+.DS_Store
+.idea/
+.vscode/
